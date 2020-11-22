@@ -75,5 +75,5 @@ def moving_average(time_series, window_len):
 def print_full(df):
   """Prints a DataFrame in full."""
   pandas.set_option('display.max_rows', len(df))
-  print df
+  print(df)
   pandas.reset_option('display.max_rows')
